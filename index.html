@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div  class="container">
+
+    <div class="dragX">
+      <div class="dragY">
+        
+        <div class="outer-circle">
+          <div class="inner-circle">
+            <div class="clock"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <input type='range' value='1' min='1' max='200' class="handler-ud"> 
+    <input type='range' value='1' min='1' max='500' class="handler-lr">
+    
+    <input name='color' type='range' value='199' min='165' max='199' class="color-changer">
+    <input type="range" step='0.01' value='1' min='1' max='1.7' class='scale' >
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
